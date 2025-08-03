@@ -18,7 +18,7 @@ index from 0.
 * insert
 * delete
 
-* Mersuring the speed of an operations: time complexity.
+* Mesuring the speed of an operations: time complexity.
 * efficiency
 * performance
 * runtime.
@@ -27,3 +27,4 @@ index from 0.
 
 **Ordered Arrays**
 is an ordered array.
+=======
