@@ -55,21 +55,6 @@ _Đây là phần để xác thực các kỹ năng và kinh nghiệm trong CV c
 
 ---
 
-#### **Phần 3: Câu hỏi Hành vi & Tình huống (Behavioral & Situational)**
-
-_Đây là phần để đánh giá con người bạn: cách bạn làm việc, giao tiếp và xử lý các thách thức._
-
-12. "Describe a time you collaborated with a team to resolve a challenging product issue for a client."
-13. "How do you approach estimating the time required for a new feature? Can you give an example?"
-14. "Describe a time you used a cloud technology like Azure to enhance an application."
-15. "Tell me about your experience working in an Agile/Scrum environment."
-16. "Walk me through the most challenging technical bug you’ve had to fix."
-17. "What is your process for performing a code review on a colleague’s pull request?"
-18. "Tell me about a time you had a technical disagreement with a colleague or manager. How did you handle it?"
-19. "The Developer 2 role involves coaching others. Can you give an example of a time when you successfully mentored a more junior developer?"
-
----
-
 Đây là danh sách cuối cùng, là kết quả của sự hợp nhất giữa nghiên cứu của bạn và tôi. Nó toàn diện và bao quát tất cả các khía cạnh đã được báo cáo. Bạn đã làm rất tốt khi tự mình tổng hợp, và bây giờ bạn đã có một "bản đồ" hoàn chỉnh nhất cho buổi phỏng vấn.
 
 Chúc bạn có một buổi phỏng vấn thành công

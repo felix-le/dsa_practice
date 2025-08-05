@@ -11,3 +11,5 @@ String.fromCharCode(parseInt('1000001', 2)); // 👉 "A"
 // Number
 const num = 5; // Unicode = 65
 const numBinary = num.toString(2);
+// kiểm tra có phải là chữ hoặc số không:
+// !/[a-zA-Z0-9]/.test
