@@ -12,7 +12,8 @@
     "benchmark": "ts-node benchmarks/runner.ts",
     "lint": "eslint . --ext .ts,.js",
     "format": "prettier --write .",
-    "start": "ts-node src/index.ts"
+    "start": "ts-node src/index.ts",
+    "udemy": "ts-node src/udemy/index.ts"
   },
   "keywords": [
     "data-structures",
@@ -58,4 +59,4 @@
       "html"
     ]
   }
-} 
+}
