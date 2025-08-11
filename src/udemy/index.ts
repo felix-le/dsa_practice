@@ -1,6 +1,32 @@
-import { same } from './0811_frequencyCounter';
+import { isAnagram } from './0811_anagram';
+const a1 = [
+  'listen',
+  'Listen',
+  'rail safety',
+  'Dormitory',
+  'The eyes',
+  'hello',
+  'abc',
+];
 
-const arr1 = [3, 2];
-const arr2 = [4, 9, 16];
+const a2 = [
+  'silent',
+  'Silent',
+  'fairy tales',
+  'Dirty room!!',
+  'They see',
+  'world',
+  'abcc',
+];
 
-console.log(same(arr1, arr2));
+for (let i = 0; i < a1.length; i++) {
+  console.log(a1[i], a2[i], '=>', isAnagram(a1[i]!, a2[i]!));
+}
+
+// true
+// true
+// true
+// true
+// true
+// false
+// false
