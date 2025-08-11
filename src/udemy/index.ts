@@ -1,5 +1,12 @@
-import { runningSum } from './s5_runningSum';
-
-const arr = [1, 2, 3, 4];
-const arr2 = [1, 1, 1, 1, 1];
-runningSum(arr);
+import { maximumWealth } from './s5_maximumWealth';
+const accounts = [
+  [1, 5],
+  [7, 3],
+  [3, 5],
+];
+const account2 = [
+  [2, 8, 7],
+  [7, 1, 3],
+  [1, 9, 5],
+];
+maximumWealth(accounts);
