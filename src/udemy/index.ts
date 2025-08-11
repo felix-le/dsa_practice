@@ -1,6 +1,6 @@
-import { twoSum } from './0810_TwoSum';
+import { same } from './0811_frequencyCounter';
 
-const arr = [3, 2, 4];
-const k = 6;
+const arr1 = [3, 2];
+const arr2 = [4, 9, 16];
 
-console.log(twoSum(arr, k));
+console.log(same(arr1, arr2));
