@@ -1,12 +1,6 @@
-import { maximumWealth } from './s5_maximumWealth';
-const accounts = [
-  [1, 5],
-  [7, 3],
-  [3, 5],
-];
-const account2 = [
-  [2, 8, 7],
-  [7, 1, 3],
-  [1, 9, 5],
-];
-maximumWealth(accounts);
+import { twoSum } from './0810_TwoSum';
+
+const arr = [3, 2, 4];
+const k = 6;
+
+console.log(twoSum(arr, k));
