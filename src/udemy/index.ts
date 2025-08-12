@@ -1,32 +1,5 @@
-import { isAnagram } from './0811_anagram';
-const a1 = [
-  'listen',
-  'Listen',
-  'rail safety',
-  'Dormitory',
-  'The eyes',
-  'hello',
-  'abc',
-];
+import { findIndexInSortedArr } from './0812_findIndexInSortedArray';
 
-const a2 = [
-  'silent',
-  'Silent',
-  'fairy tales',
-  'Dirty room!!',
-  'They see',
-  'world',
-  'abcc',
-];
-
-for (let i = 0; i < a1.length; i++) {
-  console.log(a1[i], a2[i], '=>', isAnagram(a1[i]!, a2[i]!));
-}
-
-// true
-// true
-// true
-// true
-// true
-// false
-// false
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const num = 2;
+console.log(findIndexInSortedArr(arr, num));
