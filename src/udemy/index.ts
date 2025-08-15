@@ -1,5 +1,5 @@
-import { findIndexInSortedArr } from './0812_findIndexInSortedArray';
+import { isSubsequence } from './0814_isSubsequence';
 
-const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-const num = 2;
-console.log(findIndexInSortedArr(arr, num));
+const s = 'acbc';
+const t = 'ahbbgdc';
+console.log(isSubsequence(s, t));
