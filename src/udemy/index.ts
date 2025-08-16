@@ -1,5 +1,3 @@
-import { isSubsequence } from './0814_isSubsequence';
+import { test } from './0815_productExceptSet_test';
 
-const s = 'acbc';
-const t = 'ahbbgdc';
-console.log(isSubsequence(s, t));
+test();
