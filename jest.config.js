@@ -13,6 +13,7 @@ module.exports = {
   testMatch: [
     '**/__tests__/**/*.ts',
     '**/?(*.)+(spec|test).ts',
+    '**/index.ts', // Include index.ts files for test running
   ],
   verbose: true,
   moduleFileExtensions: ['ts', 'js', 'json'],

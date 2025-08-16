@@ -37,28 +37,24 @@ Constraints:
  *
  */
 
-export function maxProfit(prices: number[]): number {
+function maxProfit2(prices: number[]): number {
   /**
    * THOUGHT FLOW
-   * When I read the requirements, "buy one stock and choosing a different day in the future",
-   * my first thought was to use two pointers.
+   * When I read the requirements, "buy one stock and choosing a different day in the future", my first thought was to use two pointers.
    * My initial idea would be a nested loop where one pointer is the 'buy' day and the other is the 'sell' day,
-   * but the constraints show that an O(n^2) solution is too slow.
-   * (n <= 5,000 for O(n^2)); n <= 10^5	O(n log n) or O(n)
+   * but the constraints show that an O(n^2) solution is too slow. (n <= 5,000 for O(n^2)); n <= 10^5	O(n log n) or O(n)
    *
    * So, I need a more efficient, single-pass O(n) approach.
    *
    * To find the maximum profit, I know I'll need to declare a `maxProfit` variable, which will start at 0.
    * This also means that as I loop through the prices, I'll be calculating a `currentProfit` to compare against `maxProfit`.
    *
-   * The profit for any 'sell' day is `currentPrice - buyPrice`.
-   * To maximize this, I need to make `buyPrice` as small as possible.
+   * The profit for any 'sell' day is `currentPrice - buyPrice`. To maximize this, I need to make `buyPrice` as small as possible.
    *
-   * I only need to keep track of one thing from the past: the minimum price I have seen so far.
+   * This leads to the key insight: as I iterate through the array, I only need to keep track of one thing from the past: the minimum price I have seen so far.
    *
    * We cannot use from the first index and the last index for this exercise.
-   * Only use the method if it is a sorted array OR it depends width between the first
-   * and last pointer (Like contain water maximum)
+   * Only use the method if it is a sorted array OR it depends width between the first and last pointer (Like contain water maximum)
    */
   /** HOW TO RESOLVE
    * Single-pass method
@@ -71,21 +67,19 @@ export function maxProfit(prices: number[]): number {
    *
    * compare minPrice with currentPrice to get the correct minPrice
    *
+   *
    * compare maxProfit with currentProfit
    * ==> if currentProfit is bigger than maxProfit ==> max profit = currentProfit.
    */
-  // So we will declare 2 variables: minPrice and maxProfit to store
-  let maxProfit = 0;
-  let minPrice = Infinity; // if we let minPrice = 0 ==> if the array has all elements are bigger than 0 --> we will get the wrong result
 
-  // create a loop to find minPrice and maxProfit
+  let maxProfit = 0;
+  let minPrice = Infinity; // to make sure that minPrice will update in the case all elements of array is > 0;
 
   for (let i = 0; i < prices.length; i++) {
-    const currentPrice = prices[i]!;
-
-    minPrice = minPrice < currentPrice ? minPrice : currentPrice;
-    const potentialProfit = currentPrice - minPrice;
-    maxProfit = maxProfit < potentialProfit ? potentialProfit : maxProfit;
+    let currentPrice = prices[i]!;
+    let currentProfit = currentPrice - minPrice;
+    minPrice = currentPrice < minPrice ? currentPrice : minPrice;
+    maxProfit = maxProfit < currentProfit ? currentProfit : maxProfit;
   }
   return maxProfit;
 }
