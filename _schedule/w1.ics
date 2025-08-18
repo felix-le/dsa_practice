@@ -1,0 +1,630 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FrontendEngineerII/StudyPlan/EN
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Toronto
+LAST-MODIFIED:20240101T000000Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/America/Toronto
+BEGIN:DAYLIGHT
+TZNAME:EDT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:EST
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:20250818T060000-DSA-UDEMY@frontendplan
+DTSTAMP:20250818T000000Z
+DTSTART;TZID=America/Toronto:20250818T060000
+DTEND;TZID=America/Toronto:20250818T090000
+SUMMARY:DSA: Udemy - Recursion & Problem Set
+DESCRIPTION:Complete Section 7: Recursion & Section 8: Recursion Problem Set.
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250818T090000-FE-JSCORE@frontendplan
+DTSTAMP:20250818T000000Z
+DTSTART;TZID=America/Toronto:20250818T090000
+DTEND;TZID=America/Toronto:20250818T100000
+SUMMARY:FE Core: JS Recursion & Call Stack (MDN)
+DESCRIPTION:Deep dive into recursive functions and the call stack. Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#recursive_functions
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250818T100000-CCI-BIGO@frontendplan
+DTSTAMP:20250818T000000Z
+DTSTART;TZID=America/Toronto:20250818T100000
+DTEND;TZID=America/Toronto:20250818T110000
+SUMMARY:Cracking the Coding Interview: Chapter 2 - Big O
+DESCRIPTION:Read and understand the concepts of Big O notation.
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250818T140000-SYSDESIGN@frontendplan
+DTSTAMP:20250818T000000Z
+DTSTART;TZID=America/Toronto:20250818T140000
+DTEND;TZID=America/Toronto:20250818T150000
+SUMMARY:System Design: Intro, Perf/Scale, Latency/Throughput, Avail/Consistency
+DESCRIPTION:Read the first 4 parts of karanpratapsingh/system-design. Link: https://github.com/karanpratapsingh/system-design
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250818T150000-LEETCODE@frontendplan
+DTSTAMP:20250818T000000Z
+DTSTART;TZID=America/Toronto:20250818T150000
+DTEND;TZID=America/Toronto:20250818T170000
+SUMMARY:LeetCode Practice: Recursion
+DESCRIPTION:1. Reverse String (Recursive): https://leetcode.com/problems/reverse-string/\n2. Climbing Stairs: https://leetcode.com/problems/climbing-stairs/\n3. Merge Two Sorted Lists: https://leetcode.com/problems/merge-two-sorted-lists/
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250818T200000-FE-TYPESCRIPT@frontendplan
+DTSTAMP:20250818T000000Z
+DTSTART;TZID=America/Toronto:20250818T200000
+DTEND;TZID=America/Toronto:20250818T213000
+SUMMARY:FE Core: TypeScript Setup & Basic Types
+DESCRIPTION:Set up environment and learn basic types. Docs: https://www.typescriptlang.org/docs/handbook/2/basic-types.html
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250818T213000-ENGLISH@frontendplan
+DTSTAMP:20250818T000000Z
+DTSTART;TZID=America/Toronto:20250818T213000
+DTEND;TZID=America/Toronto:20250818T223000
+SUMMARY:English: Transcription Practice (0-5 min)
+DESCRIPTION:Transcribe the first 5 minutes of the JSConf talk. Link: https://www.youtube.com/watch?v=M3BM9TB-8yA
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250818T223000-REVIEW@frontendplan
+DTSTAMP:20250818T000000Z
+DTSTART;TZID=America/Toronto:20250818T223000
+DTEND;TZID=America/Toronto:20250818T233000
+SUMMARY:Daily Review
+DESCRIPTION:Review and write notes on all concepts learned today.
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250819T060000-DSA-UDEMY@frontendplan
+DTSTAMP:20250819T000000Z
+DTSTART;TZID=America/Toronto:20250819T060000
+DTEND;TZID=America/Toronto:20250819T090000
+SUMMARY:DSA: Udemy - Searching Algorithms & Bubble Sort
+DESCRIPTION:Complete Section 10: Searching Algorithms & Section 11: Bubble Sort.
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250819T090000-FE-JSCORE@frontendplan
+DTSTAMP:20250819T000000Z
+DTSTART;TZID=America/Toronto:20250819T090000
+DTEND;TZID=America/Toronto:20250819T100000
+SUMMARY:FE Core: YDKJS - Closures
+DESCRIPTION:Read "You Don't Know JS", Chapter 5: Closures. Link: https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/scope%20%26%20closures/ch5.md
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250819T100000-CCI-DATASTRUCTURES@frontendplan
+DTSTAMP:20250819T000000Z
+DTSTART;TZID=America/Toronto:20250819T100000
+DTEND;TZID=America/Toronto:20250819T110000
+SUMMARY:Cracking the Coding Interview: Chapter 3 - Data Structures
+DESCRIPTION:Read and understand core data structures.
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250819T140000-SYSDESIGN@frontendplan
+DTSTAMP:20250819T000000Z
+DTSTART;TZID=America/Toronto:20250819T140000
+DTEND;TZID=America/Toronto:20250819T150000
+SUMMARY:System Design: DNS & Load Balancers
+DESCRIPTION:Read the next two parts of karanpratapsingh/system-design. Link: https://github.com/karanpratapsingh/system-design
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250819T150000-LEETCODE@frontendplan
+DTSTAMP:20250819T000000Z
+DTSTART;TZID=America/Toronto:20250819T150000
+DTEND;TZID=America/Toronto:20250819T170000
+SUMMARY:LeetCode Practice: Search & Arrays
+DESCRIPTION:1. Binary Search: https://leetcode.com/problems/binary-search/\n2. First Bad Version: https://leetcode.com/problems/first-bad-version/\n3. Two Sum: https://leetcode.com/problems/two-sum/
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250819T200000-FE-TYPESCRIPT@frontendplan
+DTSTAMP:20250819T000000Z
+DTSTART;TZID=America/Toronto:20250819T200000
+DTEND;TZID=America/Toronto:20250819T213000
+SUMMARY:FE Core: TypeScript Interfaces & Functions
+DESCRIPTION:Learn about Interfaces and Functions. Docs: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#functions
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250819T213000-ENGLISH@frontendplan
+DTSTAMP:20250819T000000Z
+DTSTART;TZID=America/Toronto:20250819T213000
+DTEND;TZID=America/Toronto:20250819T223000
+SUMMARY:English: Transcription Practice (5-10 min)
+DESCRIPTION:Transcribe the next 5 minutes of the JSConf talk. Link: https://www.youtube.com/watch?v=M3BM9TB-8yA
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250819T223000-REVIEW@frontendplan
+DTSTAMP:20250819T000000Z
+DTSTART;TZID=America/Toronto:20250819T223000
+DTEND;TZID=America/Toronto:20250819T233000
+SUMMARY:Daily Review
+DESCRIPTION:Compare linear vs. binary search.
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250820T060000-DSA-UDEMY@frontendplan
+DTSTAMP:20250820T000000Z
+DTSTART;TZID=America/Toronto:20250820T060000
+DTEND;TZID=America/Toronto:20250820T090000
+SUMMARY:DSA: Udemy - Selection Sort & Insertion Sort
+DESCRIPTION:Complete Section 12: Selection Sort & Section 13: Insertion Sort.
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250820T090000-FE-JSCORE@frontendplan
+DTSTAMP:20250820T000000Z
+DTSTART;TZID=America/Toronto:20250820T090000
+DTEND;TZID=America/Toronto:20250820T100000
+SUMMARY:FE Core: YDKJS - 'this' & Object Prototypes
+DESCRIPTION:Read Chapters 1 & 2 of YDKJS: `this` & Object Prototypes. Link: https://github.com/getify/You-Dont-Know-JS/tree/1st-ed/this%20%26%20object%20prototypes
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250820T100000-CCI-TREESGRAPHS@frontendplan
+DTSTAMP:20250820T000000Z
+DTSTART;TZID=America/Toronto:20250820T100000
+DTEND;TZID=America/Toronto:20250820T110000
+SUMMARY:Cracking the Coding Interview: Chapter 4 - Trees and Graphs
+DESCRIPTION:Read and understand Trees and Graphs.
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250820T140000-SYSDESIGN@frontendplan
+DTSTAMP:20250820T000000Z
+DTSTART;TZID=America/Toronto:20250820T140000
+DTEND;TZID=America/Toronto:20250820T150000
+SUMMARY:System Design: Caching
+DESCRIPTION:Read about Caching in the System Design Primer. Link: https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design_topics.md#cache
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250820T150000-LEETCODE@frontendplan
+DTSTAMP:20250820T000000Z
+DTSTART;TZID=America/Toronto:20250820T150000
+DTEND;TZID=America/Toronto:20250820T170000
+SUMMARY:LeetCode Practice: Arrays
+DESCRIPTION:1. Contains Duplicate: https://leetcode.com/problems/contains-duplicate/\n2. Maximum Subarray: https://leetcode.com/problems/maximum-subarray/\n3. Best Time to Buy and Sell Stock: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250820T200000-FE-NODEJS@frontendplan
+DTSTAMP:20250820T000000Z
+DTSTART;TZID=America/Toronto:20250820T200000
+DTEND;TZID=America/Toronto:20250820T213000
+SUMMARY:FE Core: NodeJS - The Event Loop
+DESCRIPTION:Understand the NodeJS Event Loop. Docs: https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250820T213000-ENGLISH@frontendplan
+DTSTAMP:20250820T000000Z
+DTSTART;TZID=America/Toronto:20250820T213000
+DTEND;TZID=America/Toronto:20250820T223000
+SUMMARY:English: Transcription Practice (10-15 min)
+DESCRIPTION:Transcribe the next 5 minutes of the JSConf talk. Link: https://www.youtube.com/watch?v=M3BM9TB-8yA
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250820T223000-REVIEW@frontendplan
+DTSTAMP:20250820T000000Z
+DTSTART;TZID=America/Toronto:20250820T223000
+DTEND;TZID=America/Toronto:20250820T233000
+SUMMARY:Daily Review
+DESCRIPTION:Draw a diagram comparing Bubble, Selection, and Insertion Sort.
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250821T060000-DSA-UDEMY@frontendplan
+DTSTAMP:20250821T000000Z
+DTSTART;TZID=America/Toronto:20250821T060000
+DTEND;TZID=America/Toronto:20250821T090000
+SUMMARY:DSA: Udemy - Comparing Sorts & Merge Sort
+DESCRIPTION:Complete Section 14: Comparing Sorts & Section 15: Merge Sort.
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250821T090000-FE-JSCORE@frontendplan
+DTSTAMP:20250821T000000Z
+DTSTART;TZID=America/Toronto:20250821T090000
+DTEND;TZID=America/Toronto:20250821T100000
+SUMMARY:FE Core: Asynchronous JS - Promises
+DESCRIPTION:Learn about Promises on MDN. Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250821T100000-CCI-BITMANIP@frontendplan
+DTSTAMP:20250821T000000Z
+DTSTART;TZID=America/Toronto:20250821T100000
+DTEND;TZID=America/Toronto:20250821T110000
+SUMMARY:Cracking the Coding Interview: Chapter 5 - Bit Manipulation
+DESCRIPTION:Read and understand bit manipulation techniques.
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250821T140000-SYSDESIGN@frontendplan
+DTSTAMP:20250821T000000Z
+DTSTART;TZID=America/Toronto:20250821T140000
+DTEND;TZID=America/Toronto:20250821T150000
+SUMMARY:System Design: Data Partitioning
+DESCRIPTION:Read about Data Partitioning in the System Design Primer. Link: https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design_topics.md#data-partitioning
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250821T150000-LEETCODE@frontendplan
+DTSTAMP:20250821T000000Z
+DTSTART;TZID=America/Toronto:20250821T150000
+DTEND;TZID=America/Toronto:20250821T170000
+SUMMARY:LeetCode Practice: Merge Sort & Sorting
+DESCRIPTION:1. Merge Sorted Array: https://leetcode.com/problems/merge-sorted-array/\n2. Valid Anagram: https://leetcode.com/problems/valid-anagram/\n3. Squares of a Sorted Array: https://leetcode.com/problems/squares-of-a-sorted-array/
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250821T200000-FE-REACT@frontendplan
+DTSTAMP:20250821T000000Z
+DTSTART;TZID=America/Toronto:20250821T200000
+DTEND;TZID=America/Toronto:20250821T213000
+SUMMARY:FE Core: React Docs - Quick Start & Thinking in React
+DESCRIPTION:Begin learning from the official React docs. Link: https://react.dev/learn
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250821T213000-ENGLISH@frontendplan
+DTSTAMP:20250821T000000Z
+DTSTART;TZID=America/Toronto:20250821T213000
+DTEND;TZID=America/Toronto:20250821T223000
+SUMMARY:English: Transcription Practice (15-20 min)
+DESCRIPTION:Transcribe the next 5 minutes of the JSConf talk. Link: https://www.youtube.com/watch?v=M3BM9TB-8yA
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250821T223000-REVIEW@frontendplan
+DTSTAMP:20250821T000000Z
+DTSTART;TZID=America/Toronto:20250821T223000
+DTEND;TZID=America/Toronto:20250821T233000
+SUMMARY:Daily Review
+DESCRIPTION:Re-implement Merge Sort algorithm from scratch.
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250822T060000-DSA-UDEMY@frontendplan
+DTSTAMP:20250822T000000Z
+DTSTART;TZID=America/Toronto:20250822T060000
+DTEND;TZID=America/Toronto:20250822T090000
+SUMMARY:DSA: Udemy - Quick Sort & Radix Sort
+DESCRIPTION:Complete Section 16: Quick Sort & Section 17: Radix Sort.
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250822T090000-FE-JSCORE@frontendplan
+DTSTAMP:20250822T000000Z
+DTSTART;TZID=America/Toronto:20250822T090000
+DTEND;TZID=America/Toronto:20250822T100000
+SUMMARY:FE Core: Asynchronous JS - Async/Await
+DESCRIPTION:Learn the async/await syntax on MDN. Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250822T100000-CCI-MATHLOGIC@frontendplan
+DTSTAMP:20250822T000000Z
+DTSTART;TZID=America/Toronto:20250822T100000
+DTEND;TZID=America/Toronto:20250822T110000
+SUMMARY:Cracking the Coding Interview: Chapter 6 - Math and Logic Puzzles
+DESCRIPTION:Read and solve some logic puzzles.
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250822T140000-SYSDESIGN@frontendplan
+DTSTAMP:20250822T000000Z
+DTSTART;TZID=America/Toronto:20250822T140000
+DTEND;TZID=America/Toronto:20250822T150000
+SUMMARY:System Design: Indexes
+DESCRIPTION:Read about Indexes in the System Design Primer. Link: https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design_topics.md#indexes
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250822T150000-LEETCODE@frontendplan
+DTSTAMP:20250822T000000Z
+DTSTART;TZID=America/Toronto:20250822T150000
+DTEND;TZID=America/Toronto:20250822T170000
+SUMMARY:LeetCode Practice: Partitioning
+DESCRIPTION:1. Sort Colors: https://leetcode.com/problems/sort-colors/\n2. Kth Largest Element in an Array: https://leetcode.com/problems/kth-largest-element-in-an-array/\n3. Move Zeroes: https://leetcode.com/problems/move-zeroes/
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250822T200000-REVIEW@frontendplan
+DTSTAMP:20250822T000000Z
+DTSTART;TZID=America/Toronto:20250822T200000
+DTEND;TZID=America/Toronto:20250822T210000
+SUMMARY:Light Review
+DESCRIPTION:Quickly review all sorting algorithms learned this week.
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250822T210000-BREAK@frontendplan
+DTSTAMP:20250822T000000Z
+DTSTART;TZID=America/Toronto:20250822T210000
+DTEND;TZID=America/Toronto:20250823T000000
+SUMMARY:Scheduled Break
+DESCRIPTION:Time to rest and recharge.
+END:VEVENT
+BEGIN:VEVENT
+UID:20250823T090000-DSAREVIEW@frontendplan
+DTSTAMP:20250823T000000Z
+DTSTART;TZID=America/Toronto:20250823T090000
+DTEND;TZID=America/Toronto:20250823T120000
+SUMMARY:Weekly Review: DSA Consolidation
+DESCRIPTION:Review notes on Big O, Recursion, Sorting. Re-write Merge/Quick sort. Re-solve 2 hard LeetCode problems from the week.
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250823T140000-FEREVIEW@frontendplan
+DTSTAMP:20250823T000000Z
+DTSTART;TZID=America/Toronto:20250823T140000
+DTEND;TZID=America/Toronto:20250823T160000
+SUMMARY:Weekly Review: FE Mini-Project
+DESCRIPTION:Build a small project using async/await to fetch data from JSONPlaceholder API and display with React + TypeScript.
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250823T160000-SYSDESIGNREVIEW@frontendplan
+DTSTAMP:20250823T000000Z
+DTSTART;TZID=America/Toronto:20250823T160000
+DTEND;TZID=America/Toronto:20250823T170000
+SUMMARY:Weekly Review: System Design Diagram
+DESCRIPTION:Draw a simple architecture for a website using a Load Balancer and Cache. Explain the request flow.
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250823T200000-CCIREVIEW@frontendplan
+DTSTAMP:20250823T000000Z
+DTSTART;TZID=America/Toronto:20250823T200000
+DTEND;TZID=America/Toronto:20250823T220000
+SUMMARY:Weekly Review: Cracking the Coding Interview
+DESCRIPTION:Review questions and exercises from Chapters 2-6.
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250824T090000-DSA-UDEMY@frontendplan
+DTSTAMP:20250824T000000Z
+DTSTART;TZID=America/Toronto:20250824T090000
+DTEND;TZID=America/Toronto:20250824T103000
+SUMMARY:DSA: Udemy - Data Structures Intro & Singly Linked Lists
+DESCRIPTION:Get a head start on Week 2. Start Section 18 & 19.
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250824T103000-FE-REACT@frontendplan
+DTSTAMP:20250824T000000Z
+DTSTART;TZID=America/Toronto:20250824T103000
+DTEND;TZID=America/Toronto:20250824T120000
+SUMMARY:FE Core: React Docs - State & Events
+DESCRIPTION:Read more on State and Responding to Events. Link: https://react.dev/learn/state-a-components-memory
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250824T140000-LEETCODE@frontendplan
+DTSTAMP:20250824T000000Z
+DTSTART;TZID=America/Toronto:20250824T140000
+DTEND;TZID=America/Toronto:20250824T160000
+SUMMARY:LeetCode Practice: Mixed Review
+DESCRIPTION:1. Product of Array Except Self: https://leetcode.com/problems/product-of-array-except-self/\n2. Valid Parentheses: https://leetcode.com/problems/valid-parentheses/\n3. 3Sum: https://leetcode.com/problems/3sum/
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250824T160000-PLANNING@frontendplan
+DTSTAMP:20250824T000000Z
+DTSTART;TZID=America/Toronto:20250824T160000
+DTEND;TZID=America/Toronto:20250824T170000
+SUMMARY:Planning for Week 2
+DESCRIPTION:Review Week 1 progress and preview topics for next week.
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
