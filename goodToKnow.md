@@ -25,14 +25,14 @@ const numBinary = num.toString(2);
 
 **Rule of Thumb:** A standard server can perform roughly **10⁸ (100 million) operations per second**. Your algorithm's total operations must be less than this to pass within the typical 1-2 second time limit.
 
-| Input Size (`n`) | Required Time Complexity | Approximate Operations (for max `n`)          | Common Algorithm Examples                                   |
-| :--------------- | :----------------------- | :-------------------------------------------- | :---------------------------------------------------------- |
-| `n <= 20`        | O(2ⁿ), O(n!)             | `2^20 ≈ 10^6` (1 Million)                     | Backtracking, Generating all Subsets/Permutations           |
-| `n <= 100`       | O(n⁴)                    | `100^4 = 10^8` (100 Million)                  | Some complex Dynamic Programming problems                   |
-| `n <= 500`       | O(n³)                    | `500^3 = 1.25 * 10^8` (125 Million)           | Floyd-Warshall, DP with 3 states                            |
-| `n <= 5,000`     | O(n²)                    | `5000^2 = 2.5 * 10^7` (25 Million)            | Brute-force with nested loops, basic DP                     |
-| **`n <= 10^5`**  | **O(n log n) or O(n)**   | `10^5 * log(10^5) ≈ 1.7 * 10^6` (1.7 Million) | **Sorting, Two Pointers, Sliding Window, Heap, Traversals** |
-| `n >= 10^9`      | O(log n) or O(1)         | `log(10^9) ≈ 30`                              | Binary Search, Mathematical formulas                        |
+| Input Size (n) | Required Time Complexity | Approximate Operations (for max n)            | Common Algorithm Examples                               |
+| :------------- | :----------------------- | :-------------------------------------------- | :------------------------------------------------------ |
+| n <= 20        | O(2^n), O(n!)            | 2^20 ≈ 10^6 (1 Million)                       | Backtracking, Generating all Subsets/Permutations       |
+| n <= 100       | O(n⁴)                    | 100^4 = 10^8 (100 Million)                    | Some complex Dynamic Programming problems               |
+| n <= 500       | O(n³)                    | 500³ = 1.25 \* 10^8 (125 Million)             | Floyd-Warshall, DP with 3 states                        |
+| n <= 5,000     | O(n²)                    | 5000² = 2.5 \* 10^7 (25 Million)              | Brute-force with nested loops, basic DP                 |
+| n <= 10^5      | O(n log n) or O(n)       | 10^5 \* log(10^5) ≈ 1.7 \* 10^6 (1.7 Million) | Sorting, Two Pointers, Sliding Window, Heap, Traversals |
+| n >= 10^9      | O(log n) or O(1)         | log(10^9) ≈ 30                                | Binary Search, Mathematical formulas                    |
 
 ### **How to Use This Table for Your Problem:**
 
